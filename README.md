@@ -12,7 +12,9 @@
 
 Quero agradecer a RocketSeat por trazer um projeto relevante e com tecnologias tão atuais. Sou um publicitário fazendo meu caminho para a programação e poder ter um conteúdo gratuito nesse nível é demais! 
 <br>
+<br>
 Até agora, além do que fizemos nas aulas com o Diego, apliquei alguns assets que estavam faltando na spec do Figma e fiz uma adaptação responsiva baseando-se no meu conhecimento de UI.
+<br>
 <br>
 Os próximos passos são:
   - Styled Components;
