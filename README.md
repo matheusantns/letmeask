@@ -8,6 +8,10 @@
 
 <br>
 
+## 😎 O projeto em produção!
+
+Visite o link: https://letmeask-effce.web.app/
+
 ## 🤯🤯 Meu depoimento!
 
 Quero agradecer a RocketSeat por trazer um projeto relevante e com tecnologias tão atuais. Sou um publicitário fazendo meu caminho para a programação e poder ter um conteúdo gratuito nesse nível é demais! 
