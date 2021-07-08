@@ -1,0 +1,99 @@
+.question {
+    margin-top: 36px;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0, 0.04);
+    padding: 24px;
+    
+    .action-button {
+        display: flex;
+        gap: 10px;
+    }
+
+    &.highlighted {
+        background: #F4F0FF;
+        border: 1px solid #835afd;
+
+        footer .user-info span {
+            color: #29292E !important
+        }
+    }
+
+    &.answered {
+        background: #DBDCDD
+    }
+
+    & + .question {
+        margin-top: 8px;
+    }
+
+    p {
+        color: #29292e;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+
+        .user-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+                > img {
+                width: 35px;
+                border-radius: 9999px;
+                }
+
+                .user-name {
+                color: #737380 !important;
+                background: transparent !important;
+                font-style: 14px !important;
+                margin-left: 10px !important;
+                font-weight: normal !important;
+                padding: 0 !important;
+                }
+    }
+
+    button {
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        gap: 15px;
+
+        > span {
+            margin-left: 0 !important;
+            color: #737380 !important;
+            background: #fff !important;
+            padding: 0 !important;
+        }
+
+        &.like-button {
+            display: flex;
+            align-items: flex-end;
+            color: #737380;
+        
+        > svg {
+            
+            transition: filter 0.2s;
+
+            &:hover {
+                filter: brightness(0.7)
+            }
+        }
+        
+
+        &.liked {
+            color: #e559f9 !important;
+            
+            svg path {
+                stroke: #e559f9 !important;
+            }
+        }
+        }
+    }
+    
+}
+}
